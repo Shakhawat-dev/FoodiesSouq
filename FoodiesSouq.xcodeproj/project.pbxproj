@@ -11,6 +11,19 @@
 		A1070C10271B2622001864C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1070C0F271B2622001864C0 /* ContentView.swift */; };
 		A1070C12271B2625001864C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1070C11271B2625001864C0 /* Assets.xcassets */; };
 		A1070C15271B2625001864C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1070C14271B2625001864C0 /* Preview Assets.xcassets */; };
+		A1070C37271B300A001864C0 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1070C36271B300A001864C0 /* Font.swift */; };
+		A1070C3B271B4497001864C0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1070C3A271B4497001864C0 /* LoginView.swift */; };
+		A1070C3D271CAA36001864C0 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1070C3C271CAA36001864C0 /* Color.swift */; };
+		A1070C40271CB217001864C0 /* RoundedBackModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1070C3F271CB217001864C0 /* RoundedBackModifier.swift */; };
+		A1070C4A271CBEA2001864C0 /* sofia_bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A1070C41271CBEA2001864C0 /* sofia_bold.otf */; };
+		A1070C4B271CBEA2001864C0 /* sofia_pro_mediumm.otf in Resources */ = {isa = PBXBuildFile; fileRef = A1070C42271CBEA2001864C0 /* sofia_pro_mediumm.otf */; };
+		A1070C4C271CBEA2001864C0 /* sofia_pro_regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = A1070C43271CBEA2001864C0 /* sofia_pro_regular.otf */; };
+		A1070C4D271CBEA2001864C0 /* tt_common_bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A1070C44271CBEA2001864C0 /* tt_common_bold.otf */; };
+		A1070C4E271CBEA2001864C0 /* tt_common_regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = A1070C45271CBEA2001864C0 /* tt_common_regular.otf */; };
+		A1070C4F271CBEA2001864C0 /* tt_common_medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = A1070C46271CBEA2001864C0 /* tt_common_medium.otf */; };
+		A1070C50271CBEA2001864C0 /* sf_pro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1070C47271CBEA2001864C0 /* sf_pro.ttf */; };
+		A1070C51271CBEA2001864C0 /* sofia_pro_light.otf in Resources */ = {isa = PBXBuildFile; fileRef = A1070C48271CBEA2001864C0 /* sofia_pro_light.otf */; };
+		A1070C52271CBEA2001864C0 /* phosphate_in_line.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1070C49271CBEA2001864C0 /* phosphate_in_line.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +32,20 @@
 		A1070C0F271B2622001864C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A1070C11271B2625001864C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1070C14271B2625001864C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1070C35271B2EC1001864C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A1070C36271B300A001864C0 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		A1070C3A271B4497001864C0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A1070C3C271CAA36001864C0 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		A1070C3F271CB217001864C0 /* RoundedBackModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedBackModifier.swift; sourceTree = "<group>"; };
+		A1070C41271CBEA2001864C0 /* sofia_bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = sofia_bold.otf; path = ../../../../../../Downloads/font/sofia_bold.otf; sourceTree = "<group>"; };
+		A1070C42271CBEA2001864C0 /* sofia_pro_mediumm.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = sofia_pro_mediumm.otf; path = ../../../../../../Downloads/font/sofia_pro_mediumm.otf; sourceTree = "<group>"; };
+		A1070C43271CBEA2001864C0 /* sofia_pro_regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = sofia_pro_regular.otf; path = ../../../../../../Downloads/font/sofia_pro_regular.otf; sourceTree = "<group>"; };
+		A1070C44271CBEA2001864C0 /* tt_common_bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = tt_common_bold.otf; path = ../../../../../../Downloads/font/tt_common_bold.otf; sourceTree = "<group>"; };
+		A1070C45271CBEA2001864C0 /* tt_common_regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = tt_common_regular.otf; path = ../../../../../../Downloads/font/tt_common_regular.otf; sourceTree = "<group>"; };
+		A1070C46271CBEA2001864C0 /* tt_common_medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = tt_common_medium.otf; path = ../../../../../../Downloads/font/tt_common_medium.otf; sourceTree = "<group>"; };
+		A1070C47271CBEA2001864C0 /* sf_pro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = sf_pro.ttf; path = ../../../../../../Downloads/font/sf_pro.ttf; sourceTree = "<group>"; };
+		A1070C48271CBEA2001864C0 /* sofia_pro_light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = sofia_pro_light.otf; path = ../../../../../../Downloads/font/sofia_pro_light.otf; sourceTree = "<group>"; };
+		A1070C49271CBEA2001864C0 /* phosphate_in_line.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = phosphate_in_line.ttf; path = ../../../../../../Downloads/font/phosphate_in_line.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +78,13 @@
 		A1070C0C271B2622001864C0 /* FoodiesSouq */ = {
 			isa = PBXGroup;
 			children = (
+				A1070C22271B2C5A001864C0 /* Fonts */,
+				A1070C35271B2EC1001864C0 /* Info.plist */,
+				A1070C1F271B2798001864C0 /* Utilities */,
+				A1070C1E271B2780001864C0 /* Models */,
+				A1070C1D271B2718001864C0 /* Extension */,
+				A1070C1C271B270F001864C0 /* Services */,
+				A1070C1B271B2700001864C0 /* Core */,
 				A1070C0D271B2622001864C0 /* FoodiesSouqApp.swift */,
 				A1070C0F271B2622001864C0 /* ContentView.swift */,
 				A1070C11271B2625001864C0 /* Assets.xcassets */,
@@ -65,6 +99,101 @@
 				A1070C14271B2625001864C0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A1070C1B271B2700001864C0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A1070C21271B27D3001864C0 /* Login */,
+				A1070C20271B27C5001864C0 /* Component */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A1070C1C271B270F001864C0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A1070C1D271B2718001864C0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A1070C36271B300A001864C0 /* Font.swift */,
+				A1070C3C271CAA36001864C0 /* Color.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A1070C1E271B2780001864C0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A1070C1F271B2798001864C0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A1070C20271B27C5001864C0 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				A1070C3E271CB1D7001864C0 /* Modifiers */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		A1070C21271B27D3001864C0 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A1070C39271B4450001864C0 /* ViewModel */,
+				A1070C38271B4445001864C0 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A1070C22271B2C5A001864C0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A1070C49271CBEA2001864C0 /* phosphate_in_line.ttf */,
+				A1070C47271CBEA2001864C0 /* sf_pro.ttf */,
+				A1070C41271CBEA2001864C0 /* sofia_bold.otf */,
+				A1070C48271CBEA2001864C0 /* sofia_pro_light.otf */,
+				A1070C42271CBEA2001864C0 /* sofia_pro_mediumm.otf */,
+				A1070C43271CBEA2001864C0 /* sofia_pro_regular.otf */,
+				A1070C44271CBEA2001864C0 /* tt_common_bold.otf */,
+				A1070C46271CBEA2001864C0 /* tt_common_medium.otf */,
+				A1070C45271CBEA2001864C0 /* tt_common_regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A1070C38271B4445001864C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A1070C3A271B4497001864C0 /* LoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A1070C39271B4450001864C0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A1070C3E271CB1D7001864C0 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				A1070C3F271CB217001864C0 /* RoundedBackModifier.swift */,
+			);
+			path = Modifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +254,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1070C52271CBEA2001864C0 /* phosphate_in_line.ttf in Resources */,
 				A1070C15271B2625001864C0 /* Preview Assets.xcassets in Resources */,
+				A1070C51271CBEA2001864C0 /* sofia_pro_light.otf in Resources */,
+				A1070C50271CBEA2001864C0 /* sf_pro.ttf in Resources */,
+				A1070C4A271CBEA2001864C0 /* sofia_bold.otf in Resources */,
+				A1070C4C271CBEA2001864C0 /* sofia_pro_regular.otf in Resources */,
+				A1070C4F271CBEA2001864C0 /* tt_common_medium.otf in Resources */,
+				A1070C4D271CBEA2001864C0 /* tt_common_bold.otf in Resources */,
+				A1070C4E271CBEA2001864C0 /* tt_common_regular.otf in Resources */,
 				A1070C12271B2625001864C0 /* Assets.xcassets in Resources */,
+				A1070C4B271CBEA2001864C0 /* sofia_pro_mediumm.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +277,10 @@
 			files = (
 				A1070C10271B2622001864C0 /* ContentView.swift in Sources */,
 				A1070C0E271B2622001864C0 /* FoodiesSouqApp.swift in Sources */,
+				A1070C3B271B4497001864C0 /* LoginView.swift in Sources */,
+				A1070C3D271CAA36001864C0 /* Color.swift in Sources */,
+				A1070C37271B300A001864C0 /* Font.swift in Sources */,
+				A1070C40271CB217001864C0 /* RoundedBackModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +414,7 @@
 				DEVELOPMENT_TEAM = 33Z26KH6FC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FoodiesSouq/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +445,7 @@
 				DEVELOPMENT_TEAM = 33Z26KH6FC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FoodiesSouq/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
