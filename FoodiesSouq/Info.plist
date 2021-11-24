@@ -4,8 +4,9 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
-		<string>sofia_bold.otf</string>
-		<string>sofia_pro_regular.otf</string>
+		<string>Sofia Pro Regular.ttf</string>
+		<string>Anton-Regular.ttf</string>
+		<string>Sofia-Pro-Bold.otf</string>
 	</array>
 </dict>
 </plist>
