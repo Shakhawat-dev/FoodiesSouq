@@ -17,6 +17,8 @@
 		A15449CE272AFCCC009156FF /* TitledEditTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15449CD272AFCCC009156FF /* TitledEditTextView.swift */; };
 		A15449D1272B06F0009156FF /* TextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15449D0272B06F0009156FF /* TextFieldStyle.swift */; };
 		A15449D3272B2130009156FF /* OutlinedShadowModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15449D2272B2130009156FF /* OutlinedShadowModifier.swift */; };
+		A17C03612756A0B00056261E /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C03602756A0B00056261E /* OnBoardingView.swift */; };
+		A17C03632756B06B0056261E /* CircleBackModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C03622756B06B0056261E /* CircleBackModifier.swift */; };
 		A1968F90271DEF9E00A4D96B /* Anton-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1968F8F271DEF9E00A4D96B /* Anton-Regular.ttf */; };
 		A1A5DABD274E9A5900F3163C /* TransparentTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A5DABC274E9A5900F3163C /* TransparentTextFieldView.swift */; };
 		A1A5DABF274EC53900F3163C /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A5DABE274EC53900F3163C /* Fonts.swift */; };
@@ -37,6 +39,8 @@
 		A15449CD272AFCCC009156FF /* TitledEditTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitledEditTextView.swift; sourceTree = "<group>"; };
 		A15449D0272B06F0009156FF /* TextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldStyle.swift; sourceTree = "<group>"; };
 		A15449D2272B2130009156FF /* OutlinedShadowModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlinedShadowModifier.swift; sourceTree = "<group>"; };
+		A17C03602756A0B00056261E /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		A17C03622756B06B0056261E /* CircleBackModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleBackModifier.swift; sourceTree = "<group>"; };
 		A1968F8F271DEF9E00A4D96B /* Anton-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Anton-Regular.ttf"; sourceTree = "<group>"; };
 		A1A5DABC274E9A5900F3163C /* TransparentTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentTextFieldView.swift; sourceTree = "<group>"; };
 		A1A5DABE274EC53900F3163C /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
@@ -100,6 +104,7 @@
 		A1070C1B271B2700001864C0 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				A17C035B27569EA40056261E /* Onboarding */,
 				A1070C21271B27D3001864C0 /* Login */,
 				A1070C20271B27C5001864C0 /* Component */,
 			);
@@ -186,6 +191,7 @@
 			children = (
 				A1070C3F271CB217001864C0 /* RoundedBackModifier.swift */,
 				A15449D2272B2130009156FF /* OutlinedShadowModifier.swift */,
+				A17C03622756B06B0056261E /* CircleBackModifier.swift */,
 			);
 			path = Modifiers;
 			sourceTree = "<group>";
@@ -196,6 +202,14 @@
 				A15449D0272B06F0009156FF /* TextFieldStyle.swift */,
 			);
 			path = Styles;
+			sourceTree = "<group>";
+		};
+		A17C035B27569EA40056261E /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				A17C03602756A0B00056261E /* OnBoardingView.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,10 +286,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1070C10271B2622001864C0 /* ContentView.swift in Sources */,
+				A17C03632756B06B0056261E /* CircleBackModifier.swift in Sources */,
 				A1A5DABD274E9A5900F3163C /* TransparentTextFieldView.swift in Sources */,
 				A15449D1272B06F0009156FF /* TextFieldStyle.swift in Sources */,
 				A15449CE272AFCCC009156FF /* TitledEditTextView.swift in Sources */,
 				A15449D3272B2130009156FF /* OutlinedShadowModifier.swift in Sources */,
+				A17C03612756A0B00056261E /* OnBoardingView.swift in Sources */,
 				A1070C0E271B2622001864C0 /* FoodiesSouqApp.swift in Sources */,
 				A1A5DABF274EC53900F3163C /* Fonts.swift in Sources */,
 				A1070C3B271B4497001864C0 /* LoginView.swift in Sources */,

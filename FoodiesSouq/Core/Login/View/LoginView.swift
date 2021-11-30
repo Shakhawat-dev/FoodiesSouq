@@ -17,7 +17,7 @@ struct LoginView: View {
             Image("login-background")
                 .resizable()
             
-            LinearGradient(colors: [Color.theme.gradientDarkBlue.opacity(0), Color.theme.gradientDarkBlue], startPoint: .top, endPoint: .bottom)
+            LinearGradient(colors: [Color.theme.subDarkGray.opacity(0), Color.theme.gradientDarkBlue], startPoint: .top, endPoint: .bottom)
             
             VStack {
                 HStack {

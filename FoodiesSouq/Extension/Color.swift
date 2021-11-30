@@ -24,4 +24,6 @@ struct ColorTheme {
     let black = Color("Black")
     let gradientDarkBlue = Color("GradientDarkBlue")
     let textColor = Color("TextColor")
+    let textTitleColor = Color("TextTitleColor")
+    let textSubTitleColor = Color("TextSubTitleColor")
 }
