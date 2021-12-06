@@ -21,3 +21,12 @@ struct CircleBackModifier: ViewModifier {
             )
     }
 }
+
+
+
+struct CircleBackModifier_Previews: PreviewProvider {
+    static var previews: some View {
+        Text("Hello, World!")
+            .modifier(CircleBackModifier())
+    }
+}

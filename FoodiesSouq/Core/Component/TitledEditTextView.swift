@@ -23,6 +23,7 @@ struct TitledEditTextView: View {
             Text(title ?? "")
                 .font(.system(size: 16))
                 .fontWeight(.medium)
+                .foregroundColor(Color.theme.subTextColor)
                 
             
             HStack {
@@ -30,6 +31,7 @@ struct TitledEditTextView: View {
                     HStack {
                         if isHidden {
                             SecureField(placeHolder, text: $text)
+                                .foregroundColor(Color.theme.black)
                         } else {
                             TextField(placeHolder, text: $text, onEditingChanged: { editing in
                                 if editing {

@@ -2,103 +2,66 @@
 //  LoginView.swift
 //  FoodiesSouq
 //
-//  Created by Shakhawat Hossain Shahin on 10/16/21.
+//  Created by Shakhawat Hossain Shahin on 7/12/21.
 //
 
 import SwiftUI
 
 struct LoginView: View {
-    
-    let screen = UIScreen.main.bounds
-    @State var phone: String = ""
+    @StateObject var vm: AuthViewModel = AuthViewModel()
     
     var body: some View {
-        ZStack {
-            Image("login-background")
-                .resizable()
-            
-            LinearGradient(colors: [Color.theme.subDarkGray.opacity(0), Color.theme.gradientDarkBlue], startPoint: .top, endPoint: .bottom)
-            
-            VStack {
-                HStack {
-                    Spacer()
-                    Text("Skip")
+        ZStack(alignment: .center) {
+            BackgroundView {
+                VStack(alignment: .center, spacing: 30.0) {
+                    HStack {
+                        Text("Login")
+                            .font(Font.theme.sofiaPro_36)
+                            .bold()
+                        
+                        Spacer()
+                    }
+                    
+                    TitledEditTextView(title: "Phone Number", placeHolder: "Your phone number", text: $vm.phone)
+                    
+                    TitledEditTextView(title: "Password", placeHolder: "Password", text: $vm.password, isSecured: true)
+                    
+                    Text("Forgot Password?")
                         .font(Font.theme.sofiaPro_14)
-                        .foregroundColor(Color("PrimaryColor"))
-                        .padding(.horizontal, 16)
-                        .padding(.vertical, 8)
-                        .background(
-                            Capsule()
-                                .fill(Color.theme.white)
-                        )
-                }
-                
-                Spacer()
-                
-                HStack {
-                    VStack(alignment: .leading) {
-                        Text("Welcome to")
-                            .font(Font.theme.sofiaPro_48)
-                            .fontWeight(.heavy)
-                            .foregroundColor(Color.theme.black)
-                        
-                        Text("FoodHub")
-                            .font(Font.theme.sofiaPro_42)
-                            .fontWeight(.heavy)
-                            .foregroundColor(Color.theme.primary)
-                        
-                        Text("Your favourite foods delivered \nfast at your door.")
-                            .font(Font.theme.sofiaPro_18)
-                            .foregroundColor(Color.theme.textColor)
-                        
-                        VStack{}
-                            .frame(height: 132)
-                    }
+                        .foregroundColor(Color.theme.primary)
                     
-                    Spacer()
-                }
-                
-                Spacer()
-                
-                VStack(spacing: 20.0) {
-                    HStack(spacing: 24) {
-                        Color.theme.white.opacity(0.5)
-                            .frame(width: screen.width * 0.24, height: 1)
-                        
-                        Text("Sign in with")
-                            .font(Font.theme.sofiaPro_14)
-                            .foregroundColor(Color.theme.white)
-                            
-                        Color.theme.white.opacity(0.5)
-                            .frame(width: screen.width * 0.24, height: 1)
+                    Button {
+                        // Do something
+                    } label: {
+                        HStack {
+                            Spacer()
+                            Text("Login")
+                                .fontWeight(.semibold)
+                            Spacer()
+                        }
+                        .frame(width: 248)
+                        .modifier(CapsuleBackModifier())
                     }
-                    
-                    TransparentTextFieldView(text: $phone, hint: "Login with phone")
                     
                     HStack {
-                        Text("Already have an account?")
-                            .font(Font.theme.sofiaPro_14)
-                            .foregroundColor(Color.theme.white)
-                        Text("Sign In")
-                            .font(Font.theme.sofiaPro_14)
-                            .foregroundColor(Color.theme.white)
-                            .underline()
-                        
+                        Text("Don’t have an account?")
+                            .foregroundColor(Color.theme.textSubTitleColor)
+                        Text("Sign Up")
+                            .foregroundColor(Color.theme.primary)
                     }
+                    .font(Font.theme.sofiaPro_14)
+                    
+
                 }
             }
-            .padding(32)
                 
+            
         }
-        .edgesIgnoringSafeArea(.all)
     }
 }
 
 struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
-        Group {
-            LoginView()
-        }
+        LoginView()
     }
 }
-

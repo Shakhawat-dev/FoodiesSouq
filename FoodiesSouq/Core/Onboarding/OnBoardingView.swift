@@ -8,44 +8,51 @@
 import SwiftUI
 
 struct OnBoardingView: View {
+    // MARK: - PROPERTIES
+    var page: OnBoardingModel
+    
+    @State private var isAnimating: Bool = false
+    
     var body: some View {
         ZStack {
             VStack {
-                Image("onboarding_image_1")
+                Image(page.image)
+                    .scaleEffect(isAnimating ? 1.0 : 0.6)
                 Spacer()
             }
             
             VStack(spacing: 20.0) {
                 Spacer()
                 
-                Text("Browse your menu and order directly")
+                Text(page.title)
                     .font(Font.theme.sofiaPro_36)
                     .multilineTextAlignment(.center)
                     .padding(.horizontal)
                     .foregroundColor(Color.theme.textTitleColor)
                 
-                Text("Our app can send you everywhere, even space. For only $2.99 per month")
+                Text(page.description)
                     .font(Font.theme.sofiaPro_17)
                     .multilineTextAlignment(.center)
                     .padding(.horizontal)
                     .foregroundColor(Color.theme.textSubTitleColor)
                 
-                Button {
-                    // Do Something
-                } label: {
-                    Image(systemName: "arrow.right")
-                        .modifier(CircleBackModifier())
-                }
-                .padding(.top, 32)
+//                Spacer(minLength: 96)
             }
+            .padding(.top, 128)
             
 
         }
+        .onAppear() {
+            withAnimation(.easeOut(duration: 0.5) ) {
+                isAnimating = true
+            }
+        }
+        .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .center)
     }
 }
 
 struct OnBoardingView_Previews: PreviewProvider {
     static var previews: some View {
-        OnBoardingView()
+        OnBoardingView(page: onboardingData[1])
     }
 }

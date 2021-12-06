@@ -17,7 +17,7 @@ struct OutlinedShadowModifier: ViewModifier {
             .background(
                 RoundedRectangle(cornerRadius: 10)
                     .fill(Color.theme.white)
-                    .shadow(color: Color.theme.subDarkGray.opacity(isEditing ? 0.05 : 0.0), radius: 20, x: 0, y: 10)
+                    .shadow(color: Color.theme.subDarkGray.opacity(isEditing ? 0.1 : 0.05), radius: 20, x: 0, y: 10)
             )
             .overlay(
                 RoundedRectangle(cornerRadius: 10)
@@ -26,8 +26,9 @@ struct OutlinedShadowModifier: ViewModifier {
     }
 }
 
-//struct OutlinedShadowModifier_Previews: PreviewProvider {
-//    static var previews: some View {
-//        OutlinedShadowModifier()
-//    }
-//}
+struct OutlinedShadowModifier_Previews: PreviewProvider {
+    static var previews: some View {
+        Text("Hello")
+            .modifier(OutlinedShadowModifier())
+    }
+}
